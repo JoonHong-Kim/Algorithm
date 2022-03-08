@@ -1,7 +1,8 @@
 from itertools import combinations
-def solution(nums):
+from typing import List
+def solution(nums:List[int]) -> int:
     #제한사한이 적으니 제일 편한걸로..
-    def is_prime(num):
+    def is_prime(num:int) -> bool:
         if num < 2:
             return False
         for i in range(2,num):
