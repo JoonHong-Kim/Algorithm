@@ -1,7 +1,7 @@
 import sys
 
 
-def is_prime(num):
+def is_prime(num: int) -> bool:
     if num < 2:
         return False
     for i in range(2, num):
