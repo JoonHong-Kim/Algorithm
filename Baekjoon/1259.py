@@ -14,7 +14,7 @@ if __name__ == "__main__":
         num = input().strip()
         if num == "0":
             break
-        if pelindrome(num):
+        if palindrome(num):
             print("yes")
         else:
             print("no")
