@@ -1,7 +1,7 @@
 import sys
 
 
-def pelindrome(num: str) -> bool:
+def palindrome(num: str) -> bool:
     if num == num[::-1]:
         return True
     else:
